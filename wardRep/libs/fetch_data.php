@@ -383,7 +383,7 @@ function getbottomsliderposts($table){
 				#code...display the results
 			echo '<li>
 			<div class="blog-item">
-			<img src="blogadmin/images/'.$slideritem['photo'].'" alt="fantastic cms" class="img-fluid" style="width:450px;height:350px"/>
+			<img src="wardadmin/images/'.$slideritem['photo'].'" alt="fantastic cms" class="img-fluid" style="width:450px;height:350px"/>
 			<button type="button" class="btn btn-primary play">
 			<a href="single.php?id='.$slideritem['id'].'" style="text-decoration:none;color:white"><i class="fas fa-eye"></i></a>
 			</button>
@@ -422,7 +422,7 @@ function getblogridposts($table){
 			<div class="b-grid-top">
 			<div class="blog_info_left_grid">
 			<a href="single.php?id='.$griditem['id'].'">
-			<img src="blogadmin/images/'.$griditem['photo'].'" class="img-fluid" alt="fantastic cms" style="width:350px;height:250px">
+			<img src="wardadmin/images/'.$griditem['photo'].'" class="img-fluid" alt="fantastic cms" style="width:350px;height:250px">
 			</a>
 			</div>
 			<h3>
@@ -469,7 +469,7 @@ function getolderposts($table){
 			echo '<div class="blog-grids row mb-3">
 			<div class="col-md-5 blog-grid-left">
 			<a href="single.php?id='.$op['id'].'">
-			<img src="blogadmin/images/'.$op['photo'].'" class="img-fluid" alt="fantastic cms">
+			<img src="wardadmin/images/'.$op['photo'].'" class="img-fluid" alt="fantastic cms">
 			</a>
 			</div>
 			<div class="col-md-7 blog-grid-right">
@@ -505,8 +505,8 @@ function getfour($table){
 		foreach ($result as $thefour => $fourdata) {
       	# code...
 			echo '<li>
-			<a href="blogadmin/images/'.$fourdata['photo'].'">
-			<img src="blogadmin/images/'.$fourdata['photo'].'" alt="fantastic cms" data-desoslide-caption="<h3>Latest Post '.$fourdata['id'].'</h3>">
+			<a href="wardadmin/images/'.$fourdata['photo'].'">
+			<img src="wardadmin/images/'.$fourdata['photo'].'" alt="fantastic cms" data-desoslide-caption="<h3>Latest Post '.$fourdata['id'].'</h3>">
 			<div class="mid-text-info">
 			<h4 style="height:40px;overflow:hidden;text-overflow:ellipsis">'.$fourdata['title'].'</h4>
 			<p>'.$fourdata['author'].'</p>
@@ -541,7 +541,7 @@ function getonelatest($table){
 			<div class="b-grid-top">
 			<div class="blog_info_left_grid">
 			<a href="single.php?id='.$onedata['id'].'">
-			<img src="blogadmin/images/'.$onedata['photo'].'" class="img-fluid" alt="fantastic cms" style="width:900px;height:500px">
+			<img src="wardadmin/images/'.$onedata['photo'].'" class="img-fluid" alt="fantastic cms" style="width:900px;height:500px">
 			</a>
 			</div>
 			<div class="blog-info-middle">
@@ -597,7 +597,7 @@ function geteditorschoice($table){
 					echo '<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
 									<a href="single.php?id='.$postdata['id'].'">
-										<img src="blogadmin/images/'.$postdata['photo'].'" class="img-fluid" alt="fantastic cms">
+										<img src="wardadmin/images/'.$postdata['photo'].'" class="img-fluid" alt="fantastic cms">
 									</a>
 								</div>
 								<div class="col-md-7 blog-grid-right">
@@ -637,7 +637,7 @@ function getcategoryblogs($table,$id){
       	# code...
 			echo '<div class="col-md-6 card">
 							<a href="single.php?id='.$cdata['id'].'">
-								<img src="blogadmin/images/'.$cdata['photo'].'" class="card-img-top img-fluid" alt="fantastic cms" style="width:480px;height:300px">
+								<img src="wardadmin/images/'.$cdata['photo'].'" class="card-img-top img-fluid" alt="fantastic cms" style="width:480px;height:300px">
 							</a>
 							<div class="card-body">
 								<ul class="blog-icons my-4">
@@ -691,7 +691,7 @@ function getpopularposts($table){
 					echo '<div class="blog-grids row mb-3">
 							<div class="col-md-5 blog-grid-left">
 								<a href="single.php?id='.$specificblog['id'].'">
-									<img src="blogadmin/images/'.$specificblog['photo'].'" class="img-fluid" alt="fantastic cms">
+									<img src="wardadmin/images/'.$specificblog['photo'].'" class="img-fluid" alt="fantastic cms">
 								</a>
 							</div>
 							<div class="col-md-7 blog-grid-right">
