@@ -33,7 +33,7 @@
 	}
 
 	function isEmail($email){
-		if(preg_match('/^([*+!.&#$¦\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
+		if(preg_match('/^([*+!.&#$ï¿½\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
 			return $email;
 		}else{
 			return FALSE;
@@ -57,7 +57,7 @@
 
 	/* include page header, unless we're testing db connection (ajax) */
 	if(session_id()){ @session_write_close(); }
-	@session_name('BLOG_ADMIN');
+	@session_name('WARD_ADMIN');
 	@session_start();
 	$_REQUEST['Embedded'] = 1; /* to prevent displaying the navigation bar */
 	$x = new StdClass;
