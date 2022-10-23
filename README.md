@@ -1,17 +1,16 @@
 # Sitatunga
 WARD ADMIN LOGIN KEYS - SITATUNGA WARD SITE 
+A realtime solution to Ward administration for members of
+ county assembly in the republic of Kenya. 
+System functionality includes:
+1. Jobs/opportunities/events posting and administration
+2. Keep database for Ward residents
+3. Groups administration (e.g education committee)
+4. User administration
 
->>>> var keys = {'Username':'admin','Password':'admin'}
+The system can be further tailored to suit office/administration
+needs regardless of location
 
->>>>MAKE SURE TO UPDATE ADMIN Password IMMEDIATELY ON 1ST LOGIN (WE RECOMMEND DURING SETUP).
-
-DON'T FORGET TO CREATE A DATABASE NAMING "sitatunga" AND IMPORT THE SQL FILE AND RUN.
-WITHOUT THE DATABASE THE SITE WON'T RUN WITH FULL CAPABILITIES. HIRE A DATABASE PROFESSIONAL
-IF YOU NEED ONE. 
-
->>>>DATABASE FILE IS INSIDE "datafiles" FOLDER
-
-***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US.
 
 ***** OUR SUPPORT IS AVAILABLE 24/7 365 DAYS 
 
